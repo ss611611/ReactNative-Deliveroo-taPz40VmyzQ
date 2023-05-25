@@ -3,6 +3,8 @@ import React from 'react'
 import { ArrowRightIcon } from 'react-native-heroicons/outline'
 import RestaurantCard from "./RestaurantCard"
 import { useState } from 'react'
+import { useEffect } from 'react'
+import sanityClient from "../sanity";
 
 const FeatureRow = ({ id, title, description, FeaturedCategory }) => {
   const [restaurants, setRestaurants] = useState([]);

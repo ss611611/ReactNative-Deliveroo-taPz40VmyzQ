@@ -1,6 +1,7 @@
 import { View, Text, ScrollView } from 'react-native';
 import React from 'react';
 import CategoryCard from "./CategoryCard";
+import { urlFor } from "../sanity";
 
 const Categories = () => {
   return (
